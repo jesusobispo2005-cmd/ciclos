@@ -22,4 +22,14 @@ const arreglo=["platano", "gato", "estrella", "universo", "paginador", "donut", 
 arreglo.forEach((item, index)=>{
     console.log("foreach: ",item)
     console.log("foreach: ",index)
+
 })
+
+const nuevo_arreglo = arreglo.map((item, index)=>{
+    console.log("foreach: ",item)
+    console.log("foreach: ",index)
+     return item + "holi"
+})
+
+console.log("este es el arreglo viejo: ", arreglo);
+console.log("este es el arreglo nuevo: ", nuevo_arreglo);
